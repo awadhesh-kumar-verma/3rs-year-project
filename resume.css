@@ -12,7 +12,7 @@ body::-webkit-scrollbar{
     margin-top: -15px;
     height: 65vh;
     opacity: 0.8;
-    background-image: url("General/mac-mouse.webp");
+    background-image: url("mac-mouse.webp");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
