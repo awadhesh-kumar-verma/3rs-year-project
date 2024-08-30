@@ -1,0 +1,1134 @@
+body {
+    margin: 0px;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+/* Body-header */
+
+#body-header {
+    margin-top: -15px;
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url("general/mac-mouse.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Horizontal-Lists */
+
+.horizontal-list {
+    list-style: none;
+    /* It removes the discs made representing list from navigation button */
+    padding-left: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 10px 28px 8px 0px;
+}
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+    font-family: system-ui;
+}
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: blue;
+    border-bottom: 1px solid white;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+#name-social-container {
+    margin-top: 20vh;
+}
+
+#my-name {
+
+    font-size: 2.3rem;
+    font-family: system-ui;
+    letter-spacing: 0.09rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+#my-name:hover {
+    color: greenyellow;
+    font-size: 2.4rem;
+}
+
+.social-icons li a i {
+    padding: 10px;
+    font-size: 1.3rem;
+    border-radius: 50%;
+}
+
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px black;
+    color: blue;
+}
+
+section {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skill{
+    height: auto;
+}
+
+
+#education {
+    height: auto;
+    background-color: rgb(243, 237, 229);
+}
+
+#portfolio {
+    height: auto;
+}
+
+section:nth-child(2n) {
+    background-color: lightgrey;
+}
+
+section:nth-child(2n+1) {
+    background-color: white;
+}
+
+section:target {
+    background-color: cyan;
+}
+
+
+.section-heading {
+    width: auto;
+    padding: 20px 10px 10px;
+}
+
+.section-heading span {
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+
+/* About Section  */
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+
+}
+
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    /* to make image circular */
+    border: 3px solid white;
+}
+
+#my-image img:hover {
+    border: 4px solid white;
+}
+
+/* Skill section */
+
+
+
+.skill-display {
+    width: 60%;
+    height: 100%;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill-progress {
+    width: 11rem;
+    height: 1.8rem;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 2.5rem;
+    border: 2px solid black;
+}
+
+
+.skill-progress div {
+    border-radius: 20px 20px 20px 20px;
+}
+
+.skill-name0 span {
+    font-family: system-ui;
+    color: white;
+    margin: 0px 15px 20px 10px;
+}
+
+.skill-name1 span {
+    font-family: system-ui;
+    color: white;
+    margin: 0px 15px 20px 10px;
+}
+
+.skill-name2 span {
+    font-family: system-ui;
+    color: white;
+    margin: 0px 15px 20px 10px;
+}
+
+.skill-name3 span {
+    font-family: system-ui;
+    color: white;
+    margin: 0px 15px 20px 10px;
+}
+
+.skill-name4 span {
+    font-family: system-ui;
+    color: white;
+    margin: 0px 15px 20px 10px;
+}
+
+.skill-name5 span {
+    font-family: system-ui;
+    color: white;
+    margin: 0px 15px 20px 10px;
+}
+
+
+.skill-name6 span {
+    font-family: system-ui;
+    color: white;
+    margin: 0px 15px 20px 10px;
+}
+
+
+
+.timeline{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.timeline-box {
+
+    width: 40%;
+    height: 8%;
+    margin: 10px;
+    min-width: 180px;
+    padding-left: 20px;
+    border-radius: 100px;
+    margin-bottom: 40px;
+    background-color: white;
+}
+
+
+
+.mb75px {
+    margin-bottom: 60px;
+}
+
+.mb75px10 {
+    margin-bottom: 30px;
+}
+
+
+
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+}
+
+.mb-blue {
+    background-color: #2857a4;
+}
+
+.mb-blue1 {
+    background-color: #ba00aa;
+}
+
+.mb-blue2 {
+    background-color: #a4282a;
+}
+
+.mb-blue3 {
+    background-color: #2891a4;
+}
+
+.mb-blue4 {
+    background-color: #a49a28;
+}
+
+.mb-blue5 {
+    background-color: #a45828;
+}
+
+.mb-blue6 {
+    background-color: green;
+}
+
+/* Percentage classes */
+
+.eighty0-percent {
+    width: 85%;
+    height: inherit;
+}
+
+.eighty1-percent {
+    width: 90%;
+    height: inherit;
+}
+
+.eighty2-percent {
+    width: 70%;
+    height: inherit;
+}
+
+.eighty3-percent {
+    width: 90%;
+    height: inherit;
+}
+
+.eighty4-percent {
+    width: 90%;
+    height: inherit;
+}
+
+.eighty5-percent {
+    width: 70%;
+    height: inherit;
+}
+
+.eighty6-percent {
+    width: 80%;
+    height: inherit;
+}
+
+html {
+    font-size: 15px;
+}
+
+#contact {
+    background-color: rgb(18, 53, 123);
+}
+
+.section-heading1 {
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+}
+
+.section-heading1 span {
+    font-size: 40px;
+    color: white;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+.mb75px0 {
+    margin-bottom: 30px;
+}
+
+#contact {
+    height: auto;
+    margin-top: -12px;
+}
+
+.contact0 {
+
+    width: 90%;
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+.contact1 {
+    width: 40%;
+    display: block;
+    margin: 15px;
+
+}
+
+.contact2 {
+    width: 40%;
+    margin-top: 5px;
+}
+
+#name0 {
+    width: 200px;
+    height: 28px;
+    border-top: #2857a4;
+    border-left: #2857a4;
+    border-right: #2857a4;
+    border-bottom: white;
+    color: black;
+    border-radius: 15px;
+    font-family: system-ui;
+    font-weight: 400;
+    background-color: white;
+}
+
+#name1 {
+    width: 200px;
+    height: 28px;
+    border-top: #2857a4;
+    border-left: #2857a4;
+    border-right: #2857a4;
+    border-bottom: white;
+    color: black;
+    border-radius: 15px;
+    font-family: system-ui;
+    font-weight: 400;
+    background-color: white;
+}
+
+#name2 {
+    border-top: #2857a4;
+    border-left: #2857a4;
+    border-right: #2857a4;
+    border-bottom: 2px solid black;
+    color: black;
+    font-size: 400;
+    border-radius: 10px;
+    font-family: system-ui;
+
+    background-color: white;
+}
+
+#button {
+    width: 170px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-family: system-ui;
+    font-weight: 700;
+}
+
+@media screen and (max-width:780px) {
+    #name0 {
+        width: 200px;
+    }
+
+    #name1 {
+        width: 200px;
+    }
+
+    #name2 {
+        width: 300px;
+        height: 70px;
+    }
+
+    #button {
+        width: 150px;
+    }
+
+    .contact0 {
+        justify-content: space-between;
+    }
+
+    .contact1 {
+        width: 46%;
+    }
+    .contact2 {
+        width: 44%;
+    }
+}
+
+@media screen and (max-width:898px) {
+    #name0 {
+        width: 200px;
+    }
+
+    #name1 {
+        width: 200px;
+    }
+
+    #name2 {
+        width: 300px;
+        height: 70px;
+    }
+
+    #button {
+        width: 150px;
+    }
+
+    .contact0 {
+        justify-content: space-between;
+    }
+
+    .contact1 {
+        width: 46%;
+    }
+    .contact2 {
+        width: 44%;
+    }
+}
+
+@media screen and (max-width:698px) {
+    #name0 {
+        width: 200px;
+    }
+
+    #name1 {
+        width: 200px;
+    }
+
+    #name2 {
+        width: 260px;
+        height: 70px;
+    }
+
+    #button {
+        width: 150px;
+    }
+
+    .contact0 {
+        justify-content: space-between;
+    }
+
+    .contact1 {
+        width: 46%;
+    }
+    .contact2 {
+        width: 44%;
+    }
+}
+
+
+@media screen and (max-width:598px) {
+    #name0 {
+        width: 200px;
+    }
+
+    #name1 {
+        width: 200px;
+    }
+
+    #name2 {
+        width: 243px;
+        height: 70px;
+    }
+
+    #button {
+        width: 150px;
+    }
+
+    .contact0 {
+        justify-content: space-between;
+    }
+
+    .contact1 {
+        width: 46%;
+    }
+    .contact2 {
+        width: 44%;
+    }
+}
+
+@media screen and (max-width:598px) {
+    #name0 {
+        width: 180px;
+    }
+
+    #name1 {
+        width: 180px;
+    }
+
+    #name2 {
+        width: 180px;
+        height: 60px;
+    }
+
+    #button {
+        width: 150px;
+    }
+
+    .contact0 {
+        justify-content: space-between;
+    }
+
+    .contact1 {
+        width: 46%;
+    }
+    .contact2 {
+        width: 44%;
+    }
+}
+
+@media screen and (max-width:398px) {
+    #name0 {
+        width: 150px;
+    }
+
+    #name1 {
+        width: 150px;
+    }
+
+    #name2 {
+        width: 180px;
+        height: 60px;
+    }
+
+    #button {
+        width: 150px;
+    }
+
+    .contact0 {
+        justify-content: space-between;
+    }
+
+    .contact1 {
+        width: 46%;
+    }
+    .contact2 {
+        width: 44%;
+        margin-left: 20px;
+    }
+}
+
+
+.Intermediate:hover {
+    color: green;
+}
+
+.icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px black;
+    color: white;
+}
+
+.port img{
+    width: 58%;
+    height: auto;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.span1{
+    font-size: 15px;
+}
+
+@media screen and (max-width: 700px){
+    #my-name {
+
+        font-size: 1.9rem;
+        font-family: system-ui;
+        letter-spacing: 0.09rem;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    } 
+    #my-name:hover {
+        color: greenyellow;
+        font-size: 2.0rem;
+    } 
+    #name-social-container {
+        margin-top: 100px;
+    }
+    .social-icons li a i {
+        padding: 9px;
+        font-size: 1.3rem;
+        border-radius: 50%;
+    }
+    #my-image {
+        height: 9rem;
+        width: 9rem;
+        margin: auto;
+        margin-top: -12vh;
+    }
+    #body-header {
+        margin-top: -15px;
+        height: 350px;
+        opacity: 0.8;
+        background-image: url("general/mac-mouse.webp");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .section-heading span {
+        font-size: 30px;
+        color: #2857a4;
+        display: inline-block;
+        padding-top: 10px;
+        margin-right: 0.5rem;
+    }
+    .section-heading1 span {
+        font-size: 30px;
+        color: white;
+        display: inline-block;
+        padding-top: 10px;
+        margin-right: 0.5rem;
+    }
+    .horizontal-list li a{
+        font-size: 14px;
+    }
+    #about p,#education p,#name0,#name1,#name2,.msg,#button,.contact2 p,.contact2 span{
+        font-size: 14px;
+        letter-spacing: .085rem;
+    }
+    .span1{
+        font-size: 15px;
+    }
+    .skill-progress {
+        width: 9rem;
+        height: 1.6rem;
+        margin-bottom: 30px;
+        margin-right: 10px;
+        background-color: white;
+        border-radius: 2.5rem;
+        border: 2px solid black;
+    }
+    .timeline-box {
+
+        width: 40%;
+        height: 8%;
+        margin: 10px;
+        min-width: 400px;
+        padding-left: 20px;
+        border-radius: 100px;
+        margin-bottom: 40px;
+        background-color: white;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #my-name {
+
+        font-size: 1.6rem;
+        font-family: system-ui;
+        letter-spacing: 0.09rem;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    } 
+    #my-name:hover {
+        color: greenyellow;
+        font-size: 1.7rem;
+    } 
+    #name-social-container {
+        margin-top: 90px;
+    }
+    .social-icons li a i {
+        padding: 1px;
+        font-size: 1.3rem;
+        border-radius: 50%;
+    }
+    #my-image {
+        height: 8rem;
+        width: 8rem;
+        margin: auto;
+        margin-top: -10vh;
+    }
+    #body-header {
+        margin-top: -15px;
+        height: 320px;
+        opacity: 0.8;
+        background-image: url("general/mac-mouse.webp");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .section-heading span {
+        font-size: 25px;
+        color: #2857a4;
+        display: inline-block;
+        padding-top: 10px;
+        margin-right: 0.5rem;
+    }
+    .section-heading1 span {
+        font-size: 25px;
+        color: white;
+        display: inline-block;
+        padding-top: 10px;
+        margin-right: 0.5rem;
+    }
+    .horizontal-list li a{
+        font-size: 14px;
+    }
+    .skill-progress {
+        width: 7rem;
+        height: 1.4rem;
+        margin-bottom: 30px;
+        margin-right: 10px;
+        background-color: white;
+        border-radius: 2.5rem;
+        border: 2px solid black;
+    }
+    .timeline-box {
+
+        width: 40%;
+        height: 8%;
+        margin: 10px;
+        min-width: 300px;
+        padding-left: 20px;
+        border-radius: 100px;
+        margin-bottom: 40px;
+        background-color: white;
+    }
+}
+
+
+@media screen and (max-width: 485px){
+    #my-name {
+
+        font-size: 1.3rem;
+        font-family: system-ui;
+        letter-spacing: 0.09rem;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    } 
+    #my-name:hover {
+        color: greenyellow;
+        font-size: 1.7rem;
+    } 
+    #name-social-container {
+        margin-top: 80px;
+    }
+    .social-icons li a i {
+        padding: 1px;
+        font-size: 1.1rem;
+        border-radius: 50%;
+    }
+    #my-image {
+        height: 8rem;
+        width: 8rem;
+        margin: auto;
+        margin-top: -10vh;
+    }
+    #body-header {
+        margin-top: -15px;
+        height: 300px;
+        opacity: 0.8;
+        background-image: url("general/mac-mouse.webp");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .section-heading span {
+        font-size: 23px;
+        color: #2857a4;
+        display: inline-block;
+        padding-top: 10px;
+        margin-right: 0.5rem;
+    }
+    .section-heading1 span {
+        font-size: 23px;
+        color: white;
+        display: inline-block;
+        padding-top: 10px;
+        margin-right: 0.5rem;
+    }
+    .horizontal-list li a{
+        font-size: 13px;
+    }
+    #about p,#education p,#name0,#name1,#name2,.msg,#button,.contact2 p,.contact2 span{
+        font-size: 13px;
+        letter-spacing: .078rem;
+    }
+    .span1{
+        font-size: 14px;
+    }
+    .timeline-box {
+
+        width: 40%;
+        height: 8%;
+        margin: 10px;
+        min-width: 300px;
+        padding-left: 20px;
+        border-radius: 100px;
+        margin-bottom: 40px;
+        background-color: white;
+    }
+    
+}
+
+@media screen and (max-width: 470px){
+    #my-name {
+
+        font-size: 1.3rem;
+        font-family: system-ui;
+        letter-spacing: 0.09rem;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    } 
+    #my-name:hover {
+        color: greenyellow;
+        font-size: 1.7rem;
+    } 
+    #name-social-container {
+        margin-top: 75px;
+    }
+    .social-icons li a i {
+        padding: 1px;
+        font-size: 1.3rem;
+        border-radius: 50%;
+    }
+    #my-image {
+        height: 7rem;
+        width: 7rem;
+        margin: auto;
+        margin-top: -10vh;
+    }
+    #body-header {
+        margin-top: -15px;
+        height: 290px;
+        opacity: 0.8;
+        background-image: url("general/mac-mouse.webp");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .section-heading span {
+        font-size: 22px;
+        color: #2857a4;
+        display: inline-block;
+        padding-top: 10px;
+        margin-right: 0.5rem;
+    }
+    .section-heading1 span {
+        font-size: 22px;
+        color: white;
+        display: inline-block;
+        padding-top: 10px;
+        margin-right: 0.5rem;
+    }
+    .horizontal-list li a{
+        font-size: 11px;
+    }
+    #about p,#education p,#name0,#name1,#name2,.msg,#button,.contact2 p,.contact2 span{
+        font-size: 11px;
+        letter-spacing: .066rem;
+    }
+    .span1{
+        font-size: 12px;
+    }
+    .timeline-box{
+        margin-top: -10px;
+    }
+    
+    .timeline-box {
+
+        width: 40%;
+        height: 8%;
+        margin: 10px;
+        min-width: 300px;
+        padding-left: 20px;
+        border-radius: 100px;
+        margin-bottom: 40px;
+        background-color: white;
+    }
+}
+
+
+@media screen and (max-width: 440px){
+    #my-name {
+
+        font-size: 1.1rem;
+        font-family: system-ui;
+        letter-spacing: 0.09rem;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    } 
+    #my-name:hover {
+        color: greenyellow;
+        font-size: 1.2rem;
+    }
+    #name-social-container {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .social-icons li a i {
+        padding: 1px;
+        font-size: 1rem;
+        border-radius: 50%;
+    }
+    #my-image {
+        height: 7rem;
+        width: 7rem;
+        margin: auto;
+        margin-top: -6vh;
+    }
+    #body-header {
+        margin-top: -15px;
+        height: 230px;
+        opacity: 0.8;
+        background-image: url("general/mac-mouse.webp");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .section-heading span {
+        font-size: 20px;
+        color: #2857a4;
+        display: inline-block;
+        padding-top: 10px;
+        margin-right: 0.5rem;
+    }
+    .section-heading1 span {
+        font-size: 20px;
+        color: white;
+        display: inline-block;
+        padding-top: 10px;
+        margin-right: 0.5rem;
+    }
+    .horizontal-list li a{
+        font-size: 10px;
+    }
+    #about p,#education p,#name0,#name1,#name2,.msg,#button,.contact2 p,.contact2 span{
+        font-size: 10px;
+        letter-spacing: .060rem;
+    }
+    .span1{
+        font-size: 11px;
+    }
+    .timeline-box{
+        margin-top: -20px;
+    }
+    .timeline-box {
+
+        width: 40%;
+        height: 8%;
+        margin: 10px;
+        min-width: 250px;
+        padding-left: 20px;
+        border-radius: 100px;
+        margin-bottom: 40px;
+        background-color: white;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    #my-name {
+
+        font-size: .7rem;
+        font-family: system-ui;
+        letter-spacing: 0.09rem;
+        color: white;
+        font-weight: 700;
+        margin-bottom: -1rem;
+    } 
+    #my-name:hover {
+        color: greenyellow;
+        font-size: .75rem;
+    } 
+    #name-social-container {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .social-icons li a i {
+        margin-right: -8px;
+        padding: 1px;
+        font-size: 0.7rem;
+        border-radius: 50%;
+    }
+    #my-image {
+        height: 6rem;
+        width: 6rem;
+        margin: auto;
+        margin-top: -6vh;
+    }
+    #body-header {
+        margin-top: -15px;
+        height: 230px;
+        opacity: 0.8;
+        background-image: url("general/mac-mouse.webp");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .section-heading span {
+        font-size: 18px;
+        color: #2857a4;
+        display: inline-block;
+        padding-top: 10px;
+        margin-right: 0.5rem;
+    }
+    .section-heading1 span {
+        font-size: 18px;
+        color: white;
+        display: inline-block;
+        padding-top: 10px;
+        margin-right: 0.5rem;
+    }
+    .horizontal-list li a{
+        font-size: 8px;
+    }
+    #about p,#education p,#name0,#name1,#name2,.msg,#button,.contact2 p,.contact2 span{
+        font-size: 8px;
+        letter-spacing: .048rem;
+    }
+    .span1{
+        font-size: 9px;
+    }
+    .timeline-box{
+        margin-top: -25px;
+    }
+    .skill-progress {
+        width: 7rem;
+        height: 1rem;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        background-color: white;
+        border-radius: 2.5rem;
+        border: 2px solid black;
+    }
+    .timeline-box {
+
+        width: 40%;
+        height: 8%;
+        margin: 10px;
+        min-width: 180px;
+        padding-left: 20px;
+        border-radius: 100px;
+        margin-bottom: 20px;
+        background-color: white;
+    }
+}
+
+
